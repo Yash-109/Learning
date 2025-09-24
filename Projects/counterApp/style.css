@@ -6,3 +6,45 @@ body{
   align-items: center;
   height: 100vh
 }
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#count {
+  font-size: 3rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#increase {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#decrease {
+  background-color: #f44336;
+  color: white;
+}
+
+#Reset {
+  background-color: #1d8eea;
+  color: white;
+}
