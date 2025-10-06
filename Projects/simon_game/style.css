@@ -36,3 +36,12 @@ body{
 .flash{
     background-color: white;
 }
+
+.gameflash{
+    background-color: white !important;
+}
+
+.userflash{
+    background-color: green !important;
+}
+

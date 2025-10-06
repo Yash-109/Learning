@@ -1,6 +1,6 @@
 let gameseq=[];
 let userseq=[];
-let btn=["red","orange","blue","purple"];
+let btns=["red","orange","blue","purple"];
 
 let started=false;
 let level=0;
@@ -13,11 +13,19 @@ document.addEventListener("keypress",function(){
 
 });
 
-function btnflash(btn)
+function gameflash(btn)
 {
-    btn.classList.add("flash");
+    btn.classList.add("gameflash");
     setTimeout(function(){
-        btn.classList.remove("flash");
+        btn.classList.remove("gameflash");
+    },250);
+}
+
+function userflash(btn)
+{
+    btn.classList.add("userflash");
+    setTimeout(function(){
+        btn.classList.remove("userflash");
     },250);
 }
 function levelup()
@@ -25,8 +33,27 @@ function levelup()
     level++;
     h3.innerText=`Level ${level}`;
     
-    let randIndx=Math.floor(Math.random() * 3);
-    let randcolor=btn[randIndx];
+    let randIndx=Math.floor(Math.random() * 4);
+    let randcolor=btns[randIndx];
     let randbtn=document.querySelector(`.${randcolor}`);
-    btnflash(randbtn);
+    gameseq.push(randcolor);
+    gameflash(randbtn);
+}
+
+function checkAns()
+{
+    
+}
+function btnPress()
+{
+    let btn =this;
+    userflash(btn);
+    usercolor= btn.getAttribute("id");
+    userseq.push(usercolor);
+}
+
+let allbtn=document.querySelectorAll(".btn");
+for(btn of allbtn)
+{
+    btn.addEventListener("click",btnPress);
 }
