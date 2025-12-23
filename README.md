@@ -82,9 +82,9 @@ open index.html
 
 ## 🤝 Connect With Me
 
-- **LinkedIn:** [Your LinkedIn Profile]
+- **LinkedIn:** [Yash Parmar](https://www.linkedin.com/in/yash-parmar-b99796289)
 - **GitHub:** [@Yash-109](https://github.com/Yash-109)
-- **Email:** [Your Email]
+- **Email:** yash.109parmar@gmail.com
 
 ---
 
