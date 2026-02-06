@@ -5,7 +5,9 @@ Welcome to my coding portfolio! This repository showcases my journey learning we
 ## 🎯 Projects Overview
 
 ### 🎮 [Simon Game](./Projects/simon_game/)
+
 **A classic memory game built with vanilla JavaScript**
+
 - 🎵 Interactive sequence-based gameplay
 - 🏆 Score tracking with highest score persistence
 - ✨ Custom flash animations and visual feedback
@@ -17,7 +19,9 @@ Welcome to my coding portfolio! This repository showcases my journey learning we
 ---
 
 ### 🔢 [Counter App](./Projects/counterApp/)
+
 **Simple interactive counter application**
+
 - ➕ Increment/Decrement functionality
 - 🔄 Reset to zero option
 - 🎨 Clean, minimalist UI
@@ -27,7 +31,9 @@ Welcome to my coding portfolio! This repository showcases my journey learning we
 ---
 
 ### ✅ [ToDo App](./Projects/ToDo/)
+
 **Task management application**
+
 - 📝 Add and manage tasks
 - ✅ Mark tasks as complete
 - 🗑️ Delete functionality
@@ -76,7 +82,7 @@ open index.html
 ## 📊 Project Stats
 
 - **Total Projects:** 3
-- **Lines of Code:** 200+ 
+- **Lines of Code:** 200+
 - **Technologies:** 3
 - **Completion:** In Progress
 
@@ -90,4 +96,4 @@ open index.html
 
 ⭐ **Star this repository if you found it helpful!**
 
-*Built with ❤️ while learning web development*
+_Built with ❤️ while learning web development_
