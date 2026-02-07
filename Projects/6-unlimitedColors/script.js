@@ -8,10 +8,10 @@ const randomColor = function () {
   }
   return color;
 };
-
+ 
 let intervalId;
 const startChangingColor = function () {
-  if (!intervalId) {
+  if (!intervalId) {  // means it execute when intervalId is null
     intervalId = setInterval(changeBgColor, 1000);
   }
 
@@ -21,7 +21,7 @@ const startChangingColor = function () {
 };
 const stopChangingColor = function () {
   clearInterval(intervalId);
-  intervalId = null;
+  intervalId = null;    // good practises for clean code 
 };
 
 document.querySelector('#start').addEventListener('click', startChangingColor);
